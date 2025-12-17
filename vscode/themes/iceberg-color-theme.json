@@ -1,0 +1,103 @@
+{
+	// Based on #71a6d2
+	"name": "iceberg-theme",
+	"colors": {
+		"menu.background": "#1b1f22",
+		"menu.selectionBackground": "#2b4051",
+		"input.background": "#293447",
+		"checkbox.background": "#293447",
+		"activityBarBadge.background": "#4e8db7",
+		"activityBar.background": "#23272d",
+		"statusBar.background": "#293447",
+		"titleBar.activeBackground": "#293447",
+		"focusBorder": "#48595c",
+		"list.activeSelectionBackground": "#2b4051",
+		"terminal.background": "#16181d",
+		"panel.background": "#1a1f21",
+		// SideBar
+		"sideBarTitle.foreground": "#eeffff",
+		"sideBar.background": "#1a1f21",
+		"tab.activeBackground": "#1b1f23",
+		// Editor
+		"editorLineNumber.activeForeground": "#9bc6ea",
+		"editor.selectionBackground": "#2b4051",
+		"editor.background": "#1b1f23",
+		"editor.foreground": "#eeffff",
+		"editor.lineHighlightBackground": "#263440",
+		// Shadow
+		"editorStickyScroll.shadow": "#00000069",
+		"scrollbar.shadow": "#00000069",
+		"listFilterWidget.shadow": "#00000069",
+		"inlineChat.shadow":"#00000069",
+	},
+	"tokenColors": [
+		{
+			"scope": [
+				"variable",
+				"source"
+			],
+			"settings": {
+				"foreground": "#eeffff"
+			}
+		},
+		{
+			"scope": [
+				"punctuation",
+				"comment",
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"foreground": "#6e6e6e"
+			}
+		},
+		{
+			"scope": [
+				"entity.name.operator",
+				"keyword.operator",
+			],
+			"settings": {
+				"foreground": "#a8a8a8",
+			}
+		},
+		{
+			"scope": [
+				"string",
+				"punctuation.definition.string",
+				"constant"
+			],
+			"settings": {
+				"foreground": "#dfa73f",
+			}
+		},
+		{
+			"scope": [
+				"keyword.control",
+				"storage.modifier",
+				"keyword.other",
+			],
+			"settings": {
+				"foreground": "#43628d",
+			}
+		},
+		{
+			"scope": [
+				"entity.name.type",
+				"storage.type",
+			],
+			"settings": {
+				"foreground": "#71a6d2",
+			}
+		},
+		{
+			"scope": [
+				"entity.name.type.class",
+				"entity.name.function",
+				"keyword.other.operator.overload.cpp",
+				"meta.preprocessor.include.cpp"
+			],
+			"settings": {
+				"foreground": "#75fcdd",
+			}
+		}
+	]
+}

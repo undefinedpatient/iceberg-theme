@@ -1,0 +1,55 @@
+
+# UI Elements
+"ui.background" = {fg="fg",bg="bg"}
+"ui.text" = {fg="fg"}
+"ui.selection" = {bg="iceberg-highlight"}
+"ui.cursor" = {fg="black",bg="white", modifiers=["bold"]}
+"ui.cursor.match" = {bg="iceberg-grey", modifiers=["bold"]}
+"ui.cursorline" = {bg="iceberg-deepdark"}
+"ui.menu.selected" = {bg="iceberg-dark"}
+"ui.debug.breakpoint" = "#EF262B"
+"ui.debug.active" = "#EF262B"
+"ui.text.focus" = {bg="#000000"}
+
+# Syntax Highlighting
+"string" = "iceberg-orange"
+"type" = "iceberg"
+"keyword" = "iceberg-dark"
+"constructor" = "iceberg"
+"function" = "iceberg-green"
+"operator" = "iceberg-grey"
+"constant" = "iceberg-orange"
+"punctuation" = "iceberg-grey"
+"tag" = "iceberg-orange"
+"markup.bold" = {modifiers=["bold"]}
+"markup.italic" = {modifiers=["italic"]}
+"markup.strikethrough" = {modifiers=["crossed_out"]}
+"markup.link" = {modifiers=["underlined"]}
+"string.url" = {modifiers=["underlined"]}
+
+# asd
+
+"diagnostic" = {modifiers=["underlined"]}
+"diagnostic.unnecessary" = {modifiers=["crossed_out"]}
+"diagnostic.error" = {bg="iceberg-red-dark", modifiers=["underlined"]}
+"hint" = "iceberg-grey"
+"info" = "#968667"
+"comment" = "iceberg-grey"
+"error" = "iceberg-red"
+"warning" = "iceberg-yellow"
+
+[palette]
+iceberg = "#71A6D2"
+iceberg-dark = "#152e50"
+iceberg-deepdark = "#263440"
+iceberg-red = "#EF262B"
+iceberg-red-dark = "#932E2E"
+iceberg-purple = "#783794"
+iceberg-orange = "#EC9D3A"
+iceberg-yellow = "#EFC633"
+iceberg-green = "#75fcdd"
+iceberg-grey = "#A3A3A3"
+iceberg-highlight = "#214662"
+bg = "#1E252A"
+fg = "#DAE4EF"
+

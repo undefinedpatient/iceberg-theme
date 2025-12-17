@@ -1,0 +1,23 @@
+{
+  "name": "iceberg-theme",
+  "displayName": "Iceberg Theme",
+  "description": "Iceberg colour theme. Embrace simplicity.",
+  "author": "Patient",
+  "version": "0.0.1",
+  "repository": "https://github.com/undefinedpatient/iceberg-theme",
+  "engines": {
+    "vscode": "^1.106.3"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Iceberg",
+        "uiTheme": "vs-dark",
+        "path": "./themes/iceberg-color-theme.json"
+      }
+    ]
+  }
+}
