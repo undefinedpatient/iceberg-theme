@@ -30,11 +30,16 @@
 		"listFilterWidget.shadow": "#00000069",
 		"inlineChat.shadow":"#00000069",
 	},
+	"semanticTokenColors": {
+		
+	},
 	"tokenColors": [
 		{
 			"scope": [
 				"variable",
-				"source"
+				"source",
+				// Python
+				"meta.function-call.arguments.python"
 			],
 			"settings": {
 				"foreground": "#eeffff"
@@ -83,6 +88,8 @@
 			"scope": [
 				"entity.name.type",
 				"storage.type",
+				// Python
+				"support.type"
 			],
 			"settings": {
 				"foreground": "#71a6d2",
@@ -93,7 +100,10 @@
 				"entity.name.type.class",
 				"entity.name.function",
 				"keyword.other.operator.overload.cpp",
-				"meta.preprocessor.include.cpp"
+				"meta.preprocessor.include.cpp",
+				// Python
+				"support.function",
+				"meta.function-call.python"
 			],
 			"settings": {
 				"foreground": "#75fcdd",
