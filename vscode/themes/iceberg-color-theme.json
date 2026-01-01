@@ -68,7 +68,9 @@
 			"scope": [
 				"string",
 				"punctuation.definition.string",
-				"constant"
+				"constant",
+				// Markdown
+				"markup.inline.raw",
 			],
 			"settings": {
 				"foreground": "#dfa73f",
@@ -79,6 +81,8 @@
 				"keyword.control",
 				"storage.modifier",
 				"keyword.other",
+				// CSS
+				"entity.other.attribute-name.pseudo-element.css"
 			],
 			"settings": {
 				"foreground": "#43628d",
@@ -88,8 +92,10 @@
 			"scope": [
 				"entity.name.type",
 				"storage.type",
+				// HTML
+				"entity.name.tag",
 				// Python
-				"support.type"
+				"support.type",
 			],
 			"settings": {
 				"foreground": "#71a6d2",
@@ -107,6 +113,39 @@
 			],
 			"settings": {
 				"foreground": "#75fcdd",
+			}
+		},
+		{
+			"scope":[
+				"markup.bold",
+			],
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope":[
+				"markup.italic",
+			],
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope":[
+				"markup.deleted",
+			],
+			"settings": {
+				"foreground": "#6e6e6e",
+				"fontStyle": "strikethrough"
+			}
+		},
+		{
+			"scope":[
+				"markup.underline",
+			],
+			"settings": {
+				"fontStyle": "underline"
 			}
 		}
 	]
